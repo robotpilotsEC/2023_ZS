@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<JScopeProject>
+    <FileVersion major="1" minor="1" />
+    <Project>
+        <Configuration>
+            <JLink>
+                <Options Connection="1" IsRTTSession="0" IsRTTWithTimeStamp="1" SamplingPeriod="100" SerialNo="0" JTAG_IRPre="-1" JTAG_DRPre="-1" IP="localhost" TargetDevice="Cortex-M4" TargetInterface="SWD" InterfaceSpeed="4000" />
+            </JLink>
+            <ScriptFile Name="unspecified" />
+            <ElfFile Name="C:\Users\Zhangshuo\Desktop\Can_Motor\CAN_Motor\MDK-ARM\CAN_Motor\CAN_Motor.axf" />
+            <DataFile Name="" />
+            <RawFile Name="" />
+            <Scope>
+                <Options TimeResolutionUs="5000000" />
+            </Scope>
+        </Configuration>
+        <Windows>
+            <Graph Show="1" />
+            <Watch Show="1" />
+        </Windows>
+        <SelectedSymbols>
+            <Symbol>
+                <Options Name="yaw" Address="0x20000014" Type="float" TypeID="1" Size="4" GraphColorRed="160" GraphColorGreen="32" GraphColorBlue="240" YMinSampled="-2147483648" YMaxSampled="-2147483648" YAvgSampled="-2147483648" Offset="4" ShowInGraph="1" ACCoupling="0" YOffset="720" IsAutoConfig="0" YResolution="20" MaxValue="94" File="../Core/Src/main.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="pitch" Address="0x2000000C" Type="float" TypeID="1" Size="4" GraphColorRed="0" GraphColorGreen="255" GraphColorBlue="0" YMinSampled="-2147483648" YMaxSampled="-2147483648" YAvgSampled="-2147483648" Offset="8" ShowInGraph="1" ACCoupling="0" YOffset="550" IsAutoConfig="0" YResolution="20" MaxValue="-2147483648" File="../Core/Src/main.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+        </SelectedSymbols>
+    </Project>
+</JScopeProject>
